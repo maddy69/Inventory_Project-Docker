@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product API URLs</title>
+</head>
+<body>
+    <h1>Product API URLs</h1>
+    <ul>
+        {% for url, description in url_patterns %}
+            <li>{{ url }} - {{ description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
